@@ -14,9 +14,9 @@ demo [here][2].
 Description
 ------------
 
-This PoC exploits the [`initiator`] field of the [Network.requestWillBeSent] of
-the [Chrome Debugging Protocol] to build a *dependency graph* of the objects
-loaded by a tab during a certain time interval.
+This PoC exploits the [`initiator`] field of the [Network.requestWillBeSent]
+event exposed by the [Chrome Debugging Protocol] to build a *dependency graph*
+of the objects loaded by a tab during a certain time interval.
 
 Each node represents an HTTP object and it is thus identified by its URL. The
 color of the nodes denotes the object type: image, style sheet, etc.
