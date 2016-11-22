@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Page Graph",
+    "version": "0.1.0",
+    "author": "Andrea Cardaci <cyrus.and@gmail.com>",
+    "description": "Generate interactive page dependency graphs.",
+    "homepage_url": "https://github.com/cyrus-and/chrome-page-graph",
+    "browser_action": {
+        "default_popup": "/pages/popup/popup.html"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "/lib/tabs.js",
+            "/lib/graph.js",
+            "/lib/port.js",
+            "/lib/debugger.js",
+            "/lib/session.js",
+            "/lib/manager.js",
+            "/eventPage.js"
+        ]
+    },
+    "permissions": [
+        "debugger"
+    ]
+}

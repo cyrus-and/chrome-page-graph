@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 75%;
+}
+
+svg {
+    cursor: move;
+}
+
+#info {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid #000000;
+    border-left: none;
+    border-bottom: none;
+}
+
+#info p {
+    margin: 0;
+    padding: 10px;
+}
+
+#info th {
+    text-align: right;
+    font-weight: bold;
+}
+
+#info td {
+    word-break: break-word;
+}
+
+#info th, #info td {
+    padding: 5px;
+}
+
+#link-initiator-end-marker circle {
+    stroke: #ffffff;
+}
+
+.node {
+    cursor: crosshair;
+    stroke-width: 2px;
+}
+
+.node-placeholder {
+    stroke: #7f7f7f;
+    fill: #ffffff;
+}
+
+.node-instance {
+    stroke: #ffffff;
+}
+
+.node-fixed.node-instance {
+    filter: url(#fixed-node-filter);
+}
+
+.node-fixed.node-placeholder {
+    fill: #eeeeee;
+}
+
+.link {
+    stroke: #7f7f7f;
+}
+
+.link-initiator {
+    marker-start: url(#link-initiator-start-marker);
+    marker-end: url(#link-initiator-end-marker);
+}
+
+.link-instance {
+    stroke-dasharray: 4, 4;
+}

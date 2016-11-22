@@ -1,0 +1,14 @@
+#toolbox {
+    white-space: nowrap;
+}
+
+#log {
+    font-family: monospace;
+    border: 1px dashed black;
+    max-height: 300px;
+    overflow: auto;
+}
+
+#log:empty {
+    display: none;
+}

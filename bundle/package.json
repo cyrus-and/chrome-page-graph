@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "bundle": "rollup -c | uglifyjs -c -m -o ../extension/pages/graph/deps/d3.min.js",
+        "clean": "rm -f ../extension/pages/graph/deps/d3.min.js"
+    },
+    "devDependencies": {
+        "d3-selection": "1",
+        "d3-force": "1",
+        "d3-drag": "1",
+        "d3-zoom": "1",
+        "d3-scale": "1",
+        "rollup": "0.36",
+        "rollup-plugin-node-resolve": "2",
+        "uglify-js": "2"
+    }
+}

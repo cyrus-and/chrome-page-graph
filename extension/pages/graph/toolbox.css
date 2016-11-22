@@ -1,0 +1,11 @@
+#toolbox {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+}
+
+#toolbox li {
+    float: left;
+    margin-right: 2px;
+}

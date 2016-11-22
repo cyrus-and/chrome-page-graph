@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/pages/popup/popup.css">
+  </head>
+  <body>
+    <h1>Page Graph</h1>
+    <p>
+      Usage:
+      <ol>
+        <li><p>hit the start button;</p></li>
+        <li><p>generate some traffic;</p></li>
+        <li><p>hit the stop button to display the resulting graph in a new tab.</p></li>
+      </ol>
+    </p>
+    <hr/>
+    <p>Each tab has its own context, parallel recordings are possible.</p>
+    <p id="toolbox">
+      <input id="blank" type="button" value="Load a blank page"/>
+      <input id="reload" type="button" value="Reload"/>
+      |
+      <input id="start" type="button" value="Start" disabled/>
+      <input id="stop" type="button" value="Stop" disabled/>
+    </p>
+    <ol id="log"></ol>
+    <!---->
+    <script src="/lib/tabs.js"></script>
+    <script src="/lib/graph.js"></script>
+    <script src="/lib/port.js"></script>
+    <script src="/lib/debugger.js"></script>
+    <script src="/lib/session.js"></script>
+    <script src="/lib/manager.js"></script>
+    <!---->
+    <script src="/lib/pages.js"></script>
+    <!---->
+    <script src="/pages/popup/popup.js"></script>
+  </body>
+</html>
