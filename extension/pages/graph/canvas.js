@@ -160,6 +160,7 @@ class Canvas {
             data.fx = data.x;
             data.fy = data.y;
             d3.select(this).raise();
+            d3.select(this).classed('node-fixed', true);
         };
         const dragged = function (data) {
             data.fx = d3.event.x;
@@ -169,7 +170,6 @@ class Canvas {
             if (!d3.event.active) {
                 simulation.alphaTarget(0);
             }
-            d3.select(this).classed('node-fixed', true);
         };
         const drag = d3.drag()
               .on('start', dragstarted)
