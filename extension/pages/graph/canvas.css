@@ -13,11 +13,8 @@ svg {
     position: fixed;
     left: 0;
     bottom: 0;
-    margin-right: 10px;
     background: rgba(255, 255, 255, 0.75);
     border: 1px solid #000000;
-    border-left: none;
-    border-bottom: none;
 }
 
 #info p {
