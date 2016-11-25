@@ -9,7 +9,7 @@ The above shows the graph obtained from the [IMDb][1] home page. Live
 demo [here][2].
 
 [1]: http://www.imdb.com/
-[2]: https://cdn.rawgit.com/cyrus-and/a1b3d6a676b3b315cec9f6f87bb972d4/raw/10ccad02e55096ab9238fa846f9a6f0517be015e/demo.html
+[2]: https://cdn.rawgit.com/cyrus-and/a1b3d6a676b3b315cec9f6f87bb972d4/raw/50d4d5d176284138540e388f32785ddb2100fff3/demo.html
 
 Description
 ------------
