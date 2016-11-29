@@ -44,6 +44,10 @@ svg {
     stroke-width: 2px;
 }
 
+.node:hover {
+    stroke: #000000;
+}
+
 .node-placeholder {
     stroke: #7f7f7f;
     fill: #ffffff;
