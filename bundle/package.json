@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "prebundle": "node -r fs -e fs.mkdirSync('../extension/pages/graph/deps')",
         "bundle": "rollup -c | uglifyjs -c -m -o ../extension/pages/graph/deps/d3.min.js",
         "clean": "rm -f ../extension/pages/graph/deps/d3.min.js"
     },
