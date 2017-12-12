@@ -11,6 +11,6 @@
         "d3-scale": "1",
         "rollup": "0.36",
         "rollup-plugin-node-resolve": "2",
-        "uglify-js": "2"
+        "uglify-js": "3"
     }
 }
